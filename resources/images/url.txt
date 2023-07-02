@@ -1,0 +1,7 @@
+https://r4.wallpaperflare.com/wallpaper/52/465/301/illustration-landscape-digital-art-mountains-wallpaper-50f055697ff63eb3883fc7f67ba6b4b8.jpg
+https://r4.wallpaperflare.com/wallpaper/760/955/638/artwork-landscape-sky-mountains-wallpaper-78664db880d01c78404c214e28e2847a.jpg
+https://r4.wallpaperflare.com/wallpaper/339/179/774/digital-art-low-poly-artwork-minimalism-wallpaper-7836ad3840b03c28007c615ef852941a.jpg
+https://r4.wallpaperflare.com/wallpaper/71/196/981/digital-art-minimalism-nature-hills-wallpaper-88f64d4860b08ca8d02c41def8f2349a.jpg
+https://r4.wallpaperflare.com/wallpaper/203/697/217/fkyhdino-landscape-artwork-mountains-wallpaper-49b0987d411a8deb26e738df3091662d.jpg
+
+padding de btn en responsive: 10px

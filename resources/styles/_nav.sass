@@ -1,0 +1,78 @@
+nav
+  width: 100%
+  backdrop-filter: blur(1.2px) saturate(135%)
+  -webkit-backdrop-filter: blur(1px) saturate(200%)
+  background-color: rgba(255, 255, 255, 0.062)
+  position: sticky !important
+  top: 0
+  display: flex
+  justify-content: center
+  gap: 15px
+  z-index: 10
+  padding-bottom: 15px
+  border-radius: 0px 0px 12px 12px
+
+li
+  list-style: none
+  display: flex
+  align-items: flex-end
+
+.icon
+  padding: 0px 10px 0px 10px
+  font-size: 30px
+  font-family: 'Yellowtail', cursive
+  color : black
+  text-decoration: none
+
+.a
+  height: 100%
+  width: 100%
+  font-size: 20px
+  font-family: 'bebas neue', sans-serif
+  color: black
+  text-decoration: none
+  z-index: 10
+
+.btn
+  height: 100%
+  font-size: 17px
+  background: transparent
+  border: none
+  padding: 1.3em 1.5em
+  position: relative
+  transition-delay: .5s ease
+  -webkit-transition: .5s ease
+  transition: .5s ease
+  cursor: pointer
+  &::before
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    height: 2px
+    width: 0
+    background-color: #ffc506
+    -webkit-transition: .5s ease
+    transition: .5s ease
+  &:hover
+    color: #1e1e2b
+    -webkit-transition-delay: .5s
+    transition-delay: .5s
+  &:hover::before
+    width: 100%
+  &::after
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    height: 0
+    width: 100%
+    background-color: #ffc506
+    -webkit-transition: .4s ease
+    transition: .4s ease
+    z-index: -1
+  &:hover::after
+    height: 100%
+    -webkit-transition-delay: 0.4s
+    transition-delay: 0.4s
+    color: aliceblue
