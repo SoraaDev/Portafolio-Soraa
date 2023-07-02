@@ -326,7 +326,7 @@ main {
   align-items: center;
   gap: 15px;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .card {
@@ -374,12 +374,12 @@ h2 {
   height: 30%;
 }
 
-aside {
+.redes {
   display: flex;
   align-items: center;
   gap: 15px;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .img-vector {
@@ -410,6 +410,15 @@ aside {
   font-size: 30px;
   color: #53c9b3;
 }
+.contact .fila span {
+  font-size: 15px;
+  color: #53c9b3;
+}
+
+#ppp {
+  padding-left: 2px;
+  align-items: center;
+}
 
 .ajuste1 {
   display: flex;
@@ -427,6 +436,7 @@ aside {
 }
 
 .fila_icons {
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -435,7 +445,7 @@ aside {
 .icons_redes {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .icons_redes a {
   width: 40px;
@@ -448,7 +458,7 @@ aside {
 
 .division {
   display: flex;
-  gap: 5px;
+  gap: 15px;
 }
 
 .topped {
@@ -476,4 +486,33 @@ aside {
 .topped:hover img {
   transform: scale(0.9);
   fill: #333333;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  font-family: poppins, sans-serif;
+}
+
+.proyectos {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.proyectos .fila {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.proyectos .fila h1 {
+  font-size: 30px;
+}
+.proyectos .fila p {
+  font-size: 30px;
+  color: #53c9b3;
 }/*# sourceMappingURL=style.css.map */
